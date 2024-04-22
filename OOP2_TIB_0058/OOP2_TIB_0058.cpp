@@ -9,7 +9,13 @@ class bangunDatar {
 private:
     float panjang, lebar;
 public:
-    
+    float luas;
+
+    void input(){}
+    float hitungluas() {};
+    void display() {};
+
+
 };
 
 
