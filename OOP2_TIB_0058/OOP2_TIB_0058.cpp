@@ -36,7 +36,11 @@ public:
 
 int main()
 {
-    std::cout << "Hello World!\n";
+    bangunDatar pp; // deklarasi objek pp dari class bangunDatar
+    pp.input();
+    pp.display();
+
+    return 0;
 }
 
 
