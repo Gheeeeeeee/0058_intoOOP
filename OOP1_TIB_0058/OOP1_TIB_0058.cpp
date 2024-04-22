@@ -23,6 +23,8 @@ private:
     string kodeMK;
     string namaMK;
     int sks;
+
+public:
     void input() {
         cout << "Kode MK: ";
         cin >> kodeMK;
@@ -39,7 +41,18 @@ private:
 };
 int main()
 {
-    std::cout << "Hello World!\n";
+    Mahasiswa mhs;
+    Matakuliah mk;
+
+    mhs.nama = "budi";
+    mhs.umur = 20;
+    mhs.jurusan = "Teknik informatika";
+    mhs.output();
+
+    mk.input();
+    mk.output();
+
+    return 0;
 }
 
 
