@@ -5,7 +5,7 @@
 using namespace std;
 
 class Mahasiswa {
-
+public: //akses modifier
 };
 
 int main()
